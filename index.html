@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>My Music!</title>
+   <link rel="shortcut icon" href="https://lh3.googleusercontent.com/fDqcZukIaLIrq6lSTnu5INnYDomTIs2OUWXDtjWbDbsWjD0sdzNJ-WpO0hg3uGUB_CyF" type="image/x-icon">
+   <!-- UIkit CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
+   <link rel="stylesheet" href="./css/style.css">
+   <script defer src="./js/index.js"></script>
+   <!-- UIkit JS -->
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+   <header class="header">
+      <div class="header__logo">
+         <img src="https://res.cloudinary.com/teepublic/image/private/s--tfEm3Oc7--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/t_Watermark/c_limit,f_jpg,h_630,q_90,w_630/v1515273371/production/designs/2259350_1.jpg" alt="" class="logo" width=100>
+      </div>
+
+      <nav class="header__nav">
+         <div class="nav__links">
+            <a href="./index.html">Home</a>
+            <a href="./genres.html">Genres</a>
+            <a href="./playlist.html">Playlist</a>
+         </div>
+         <div class="nav__users">
+            <a href="./login.html">Login</a>
+            <a href="./register.html">Register</a>
+         </div>
+      </nav>
+   </header>
+   <section class="hero_msj">
+    <p class="hero_msj__text">Let's the music take control</p>
+   </section>
+   <div class="uk-height-medium uk-margin uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+         <ul class="uk-slider-items uk-grid">
+             <li class="uk-width-4-5">
+                 <div class="uk-panel uk-height-medium">
+                     <img src="./img/people-standing.jpg" alt="">
+                 </div>
+             </li>
+   
+             <li class="uk-width-4-5">
+                 <div class="uk-height-medium uk-panel">
+                     <img src="./img/concert.jpg" alt="">
+                 </div>
+             </li>
+   
+             <li class="uk-width-4-5">
+                 <div class="uk-panel uk-height-medium">
+                     <img src="./img/mixer.jpg" alt="">
+                 </div>
+             </li>
+   
+             <li class="uk-width-4-5">
+                 <div class="uk-panel uk-height-medium">
+                     <img src="./img/close-up.jpg" alt="">
+                 </div>
+             </li>
+   
+             <li class="uk-width-4-5">
+                 <div class="uk-panel uk-height-medium">
+                     <img src="./img/lights-festival.jpg" alt="">
+                 </div>
+             </li>
+         </ul>
+     
+         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+   </div>
+
+   <section class="search">
+     <form action="results.html" method="GET">
+         <input type="text" class="search__input" name="q" placeholder="Example: Eminem..">
+         <button type="submit" class="search__submit">SEARCH</button> 
+     </form>
+   </section>
+
+   <section class="charts">
+      <article class="top_tracks">
+         <h2 class="chart_title">TOP TRACKS</h2>
+      </article>
+      <article class="top_albums">
+         <h2 class="chart_title">TOP ALBUMS</h2>
+      </article>
+      <article class="top_artists">
+         <h2 class="chart_title">TOP ARTISTS</h2>
+      </article>
+   </section>
+
+   <footer class="footer">
+      <div></div>
+      <div><img src="./img/rock_music_PNG32.png" alt=""></div>
+      <div></div>
+   </footer>
+
+   
+</body>
+</html>
